@@ -117,7 +117,7 @@ public class DBConnection {
         }
     }
 
-    // ✅ NEW: Update a person's details by their ID
+    
     public static void updatePerson(int id, Person updatedPerson) {
         try {
             PreparedStatement st = connection.prepareStatement(
